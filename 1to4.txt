@@ -1,0 +1,121 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+/*namespace arithmetic_ope_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter first number : ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Enter second number : ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("**********************************");
+            Console.WriteLine("Choose any one operation from below");
+            Console.WriteLine("1 for Addition.");
+            Console.WriteLine("2 for Subtraction");
+            Console.WriteLine("3 for Multiplication");
+            Console.WriteLine("4 for Division");
+            Console.WriteLine("5 for modulo operation");
+            Console.WriteLine("**********************************");
+            int choice = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"Entered choice is : {choice}");
+            Console.WriteLine("**********************************");
+            switch (choice)
+            {
+                case 1:
+                    Console.WriteLine($"Addition is :{num1 + num2}");
+                    break;
+                case 2:
+                    Console.WriteLine($"Subtraction is :{num1 - num2}");
+                    break;
+                case 3:
+                    Console.WriteLine($"Multiplication is :{num1 * num2}");
+                    break;
+                case 4:
+                    Console.WriteLine($"Division is : {num1 / num2}");
+                    break;
+                case 5:
+                    Console.WriteLine($"Modulo is : {num1 % num2}");
+                    break;
+                default:
+                    Console.WriteLine($"Invalid input.");
+                    break;
+            }
+            Console.ReadKey();
+        }
+    }
+}*/
+
+/*namespace arithmetic_ope_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+                int sub1, sub2, sub3, sub4, total;
+                float per;
+                Console.WriteLine("Enter the marks of first Subject : ");
+                sub1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter the marks of second Subject : ");
+                sub2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter the marks of third Subject : ");
+                sub3 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter the marks of forth Subject : ");
+                sub4 = Convert.ToInt32(Console.ReadLine());
+                total = sub1 + sub2 + sub3 + sub4;
+                per = ((100 * total) / 400);
+            Console.WriteLine("*********************************************");
+            Console.WriteLine("Percentage : " + per);
+            Console.WriteLine("*********************************************");
+            if (per >= 35 && per < 50)
+                {
+                    Console.WriteLine("Grade C");
+                }
+                if (per >= 50 && per <= 60)
+                {
+                    Console.WriteLine("Grade B");
+                }
+                if (per > 60 && per <= 80)
+                {
+                    Console.WriteLine("Grade A");
+                }
+                if (per > 80 && per <= 90)
+                {
+                    Console.WriteLine("Grade A+");
+                }
+                if (per > 90 && per <= 100)
+                {
+                    Console.WriteLine("Grade O");
+                }
+                Console.ReadLine();            
+        }
+    }
+}*/
+
+
+namespace arithmetic_ope_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter PrincipaL amount : ");
+            int pa = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter rate of interest : ");
+            int r = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter number of years :");
+            int n = Convert.ToInt32(Console.ReadLine());
+            //int ans = (((pa * r / 12)*(1 + r / 12) ^ n) /(((1 + r / 12) ^ n) – 1);
+            //int ans = (((pa * (r / 12))(1 + r / 12) ^ n) / ((1 + r / 12) ^ n - 1));
+            //double p = Math.Pow(1 + r, n);
+            //double ans = (pa * r * p) / (p - 1);
+            //Console.WriteLine("EMI for the amount is : "+ ans);
+            Console.ReadKey();
+        }
+    }
+}
